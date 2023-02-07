@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+#menu-outer {
+    background-color: #b3bed1;
+    overflow: hidden;
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+ul#horizontal li {
+    display: inline;
+}
+
+li a {
+    color:white;
+    padding: 16px;
+    font-size: larger;
+}
