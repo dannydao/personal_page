@@ -8,7 +8,7 @@
 
 body {
     background: #5cdb95;
-    color: #105386;;
+    color: #05386b;;
     margin: 0;
     line-height: 1.5;
     margin-top: 4%;
@@ -28,13 +28,9 @@ h2 {
     font-size: xx-large;
 }
 
-.section_intro,
-.section_about_me {
-    background: #edf5e1 ;
-}
 
 /* NavBar */
-
+s
 header {
     display: flex;
     justify-content: space-between;
@@ -67,7 +63,7 @@ header {
 }
 
 .nav_link {
-    color: #105386;
+    color: #05386b;
     font-size: xx-large;
     font-weight: bold;
     text-decoration: none;
@@ -91,19 +87,37 @@ header {
 
 .nav_open .nav {
     transform: translateX(0);
+
+}
+
+.nav_open .hamburger {
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+}
+
+.nav_open .hamburger::before {
+    transform: rotate(135deg);
+    transform-origin: center;
+    top: 10%;
 }
 
 
+.nav_open .hamburger::after {
+    transform: rotate(225deg);
+    transform-origin: center;
+    top: 10%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0);
+}
 
 .hamburger {   
-    display: block;
+    display: inline-block;
     position: relative;
 }
 
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background:black;
+    background: #05386b;
     width: 2em;
     height: 3px;
     border-radius: 1em;
