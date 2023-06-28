@@ -8,10 +8,20 @@
 
 body {
     background: #5cdb95;
-    color: #05386b;;
+    font-family: 'Varela Round';
+    color: #05386b;
     margin: 0;
     line-height: 1.5;
-    margin-top: 4%;
+}
+
+footer {
+    background: #05386b;
+    color: white;
+}
+
+.social_media_list_link,
+.email_link {
+    color: white;
 }
 
 /* Typography */
@@ -28,9 +38,13 @@ h2 {
     font-size: xx-large;
 }
 
+.section_statement {
+    font-weight: bold;
+    font-size: large;
+}
 
 /* NavBar */
-s
+
 header {
     display: flex;
     justify-content: space-between;
