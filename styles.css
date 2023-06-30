@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+/* Mobile */
+
+@media only screen and(min-width: 320px) and (max-width: 999px) {
+    
+}
+
 /* General Styles */
 
 body {
@@ -16,15 +22,24 @@ body {
 
 footer {
     background: #05386b;
-    color: white;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
+    line-height: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.social_media_list {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+    justify-content: center;
 }
 
 .social_media_list_link,
 .email_link {
-    color: white;
+    color: white;  
 }
 
 .dog {
