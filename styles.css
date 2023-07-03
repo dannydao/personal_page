@@ -11,6 +11,10 @@
 }
 
 /* General Styles */
+html {
+    height: 100%;
+    margin:auto;
+}
 
 body {
     background: #5cdb95;
@@ -18,22 +22,31 @@ body {
     color: #05386b;
     margin: 0;
     line-height: 1.5;
+    padding-bottom: 10%;
+}
+
+hr {
+    background-color: black;
+    border-color: black;
+    opacity: 20%;
+    margin-right: 15%;
 }
 
 footer {
     background: #05386b;
-    position: fixed;
     bottom: 0;
     width: 100%;
+    position: fixed;
+    height: 8%;
     line-height: auto;
-    padding: 5px;
     text-align: center;
+    clear: both;
 }
 
 .social_media_list {
     display: inline-block;
     vertical-align: middle;
-    padding: 10px;
+    padding: .5em;
     justify-content: center;
 }
 
