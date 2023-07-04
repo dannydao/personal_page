@@ -9,27 +9,35 @@
 </head> 
 
 <body>
-    <header>
-        <div class = "photo">
 
-        </div>
-        <button class="nav_toggle">
-            <span class="hamburger"></span>
-        </button>
-        <nav class = "nav">
-            <ul class = "nav_list">
-                <li class="nav_item"><a href="index.html" class="nav_link">Home</a></li>
-                <li class="nav_item"><a href="aboutme.html" class="nav_link">About Me</a></li>
-                <li class ="nav_item"><a href="resume.html" class="nav_link">Resume</a> </li>
+    <header>
+        <nav class = "navbar">
+            <a href="index.html" class="nav_home"> Danny.Dao</a>
+            <ul class = "nav_menu">
+                <li class="nav_item">
+                    <a href="index.html" class="nav_link">Home</a>
+                </li>
+                <li class="nav_item">
+                    <a href="aboutme.html" class="nav_link">About Me</a>
+                </li>
+                <li class ="nav_item">
+                    <a href="resume.html" class="nav_link">Resume</a>
+                </li>
             </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
         </nav>
     </header>
 
 
     <!-- Resume -->
-    <div class = "resume" id = "res">
+    <main class = "resume">
         <h2> Resume </h2>
-        <p> Thank you for checking out my resume. Click <a href="files/ddao_resume.pdf" download>here</a> to download it.</p>
+        <p> Thank you for checking out my resume. Click <a href="files/ddao_resume.pdf" class="file" download>here</a> to download it.</p>
         <hr></hr>
         <section class="skills">
             <h2> Skills</h2>
@@ -67,22 +75,19 @@
             <h3> University of Nebraska-Omaha</h3>
             <p><em>August 2020 - Present</em>
             <br> B.S. in Cybersecurity, Minor in Computer Science</p>
-
-
-
         </section>
 
-        </div>
+    </main>
 
      <!-- Footer -->
-     <footer>
+    <footer class="footer">
         <ul class="social_media">
             <li class="social_media_list"><a class="email_link" href="mailto: dannyhoangdao@gmail.com"> Email</a></li>
             <li class="social_media_list"><a class="social_media_list_link" href="https://github.com/dannydao" target="_blank">Github</a></li>
             <li class="social_media_list"><a class="social_media_list_link" href="https:/instagram.com/d.dao11" target="_blank">Instagram</a></li>
             <li class="social_media_list"><a class="social_media_list_link" href="https://discord.com/users/dndao" target="_blank">Discord</a></li>
         </ul>
-    </footer>   
+    </footer> 
 
     <script src="script.js"></script>
 
