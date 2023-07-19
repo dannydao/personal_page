@@ -45,13 +45,19 @@ main {
 }
 
 section {
-    margin-bottom: 2%;
+    margin-bottom: 1%;
+    background: linear-gradient(to left, red, grey);
+    padding: 15px;
+    border-radius: 25px;
 }
 
 hr {
-    background-color: #efefef;
-    margin-right: 15%;
-    margin-bottom: 1%;
+    background: linear-gradient(to right, grey, red);
+    border-radius: 25px;
+    padding: 1px;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    border: none;
 }
 
 li {
@@ -120,7 +126,7 @@ h2 {
 /* NavBar */
 
 header {
-    background-color: #f5f5f5;
+    background: linear-gradient(to right, grey, red);
 }
 
 a {
@@ -189,10 +195,10 @@ a {
     .nav_menu {
         position: absolute;
         left: -100%;
-        top: 100px;
+        top: 114px;
         gap: 10px;
         flex-direction: column;
-        background-color: #f5f5f5;
+        background: linear-gradient(to right, grey, red);
         width: 100%;
         text-align: center;
         transition: 0.3s;
