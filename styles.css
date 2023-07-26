@@ -52,7 +52,7 @@ section {
 }
 
 hr {
-    background: linear-gradient(to right, grey, red);
+    background: linear-gradient(to right, grey, red,#353839);
     border-radius: 25px;
     padding: 1px;
     margin-right: 5%;
@@ -65,7 +65,7 @@ li {
 }
 
 footer {
-    background: #353839;
+    background: linear-gradient(to right, grey, red);
     bottom: 0;
     width: 100%;
     position: absolute;
@@ -84,7 +84,8 @@ footer {
 
 .social_media_list_link,
 .email_link {
-    color: #efefef;  
+    color: #efefef; 
+    text-decoration: none; 
 }
 
 .photo {
@@ -201,7 +202,7 @@ a {
         background: linear-gradient(to right, grey, red);
         width: 100%;
         text-align: center;
-        transition: 0.3s;
+        transition: 0.2s;
     }
 
     .nav_item {
